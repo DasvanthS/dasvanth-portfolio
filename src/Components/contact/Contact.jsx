@@ -20,7 +20,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm('service_j0skzag', 'template_x1tumy3', formRef.current, 'user_RSxQco2AAoPz4GoI1ft4i')
+        emailjs.sendForm("service_y5hp05d", "template_x1tumy3", formRef.current, "user_RSxQco2AAoPz4GoI1ft4i")
       .then((result) => {
           console.log(result.text);
           e.target.reset();
